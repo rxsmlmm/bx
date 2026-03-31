@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+D:\新建文件夹 (3)\matrixnn\matrixnn\FileName.cpp(88,25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\新建文件夹 (3)\matrixnn\matrixnn\FileName.cpp(132,49): warning C4244: “=”: 从“size_t”转换到“double”，可能丢失数据
+  matrixnn.vcxproj -> D:\新建文件夹 (3)\matrixnn\x64\Debug\matrixnn.exe
