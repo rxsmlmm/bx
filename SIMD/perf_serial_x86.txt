@@ -1,0 +1,22 @@
+========================================
+Version:x86_serial
+Matrix size: 1024 x 1024
+========================================
+\n[Results]
+Time: 191.695 ms
+Residual: 4.238181e-03
+Status: PASS (float tolerance 1e-2)
+
+ Performance counter stats for './main_serial_x86':
+
+                 0      instructions                                                          
+                 0      cycles                                                                
+        75,593,832      cache-references                                                      
+         2,784,847      cache-misses                     #    3.68% of all cache refs         
+
+       0.214448326 seconds time elapsed
+
+       0.191888000 seconds user
+       0.021840000 seconds sys
+
+

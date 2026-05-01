@@ -1,0 +1,25 @@
+Version: NEON_ALIGNED
+Matrix size: 1024 x 1024
+\n[Results]
+average latency  : 254.756 (ms) 
+Residual: 4.283451e-03
+Status:   PASS (residual < 1e-2f)
+
+ Performance counter stats for './aligned_test':
+
+     1,231,401,755      instructions:u            #    1.75  insn per cycle         
+       704,143,655      cycles:u                                                    
+       665,472,147      cache-references:u                                          
+         4,989,532      cache-misses:u            #    0.750 % of all cache refs    
+       665,472,147      L1-dcache-loads:u                                           
+         4,989,532      L1-dcache-load-misses:u   #    0.75% of all L1-dcache accesses
+        24,804,954      LLC-loads:u                                                 
+            99,611      LLC-load-misses:u         #    0.40% of all LL-cache accesses
+           884,882      branch-misses:u                                             
+
+       0.278265880 seconds time elapsed
+
+       0.273720000 seconds user
+       0.004017000 seconds sys
+
+

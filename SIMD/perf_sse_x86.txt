@@ -1,0 +1,22 @@
+========================================
+Version: SSE (x86, 4-way vectorization)
+Matrix size: 1024 x 1024
+========================================
+\n[Results]
+Time: 140.083 ms
+Residual: 4.110353e-03
+Status: PASS (float tolerance 1e-2)
+
+ Performance counter stats for './main_x86':
+
+                 0      instructions                                                          
+                 0      cycles                                                                
+        65,130,625      cache-references                                                      
+         4,137,061      cache-misses                     #    6.35% of all cache refs         
+
+       0.163991233 seconds time elapsed
+
+       0.142415000 seconds user
+       0.019086000 seconds sys
+
+

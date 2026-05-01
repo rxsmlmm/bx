@@ -1,0 +1,25 @@
+Version: SERIAL
+Matrix size: 1024 x 1024
+\n[Results]
+average latency  : 427.143 (ms) 
+Residual: 4.660327e-03
+Status:   PASS (residual < 1e-2f)
+
+ Performance counter stats for './serial_test':
+
+     2,629,236,054      instructions:u            #    2.29  insn per cycle         
+     1,145,975,124      cycles:u                                                    
+     1,109,215,748      cache-references:u                                          
+        10,343,586      cache-misses:u            #    0.933 % of all cache refs    
+     1,109,215,748      L1-dcache-loads:u                                           
+        10,343,586      L1-dcache-load-misses:u   #    0.93% of all L1-dcache accesses
+        24,604,019      LLC-loads:u                                                 
+         1,287,070      LLC-load-misses:u         #    5.23% of all LL-cache accesses
+           762,232      branch-misses:u                                             
+
+       0.451108988 seconds time elapsed
+
+       0.441192000 seconds user
+       0.008019000 seconds sys
+
+

@@ -1,0 +1,25 @@
+Version: NEON_UNALIGNED
+Matrix size: 1024 x 1024
+\n[Results]
+average latency  : 301.904 (ms) 
+Residual: 4.226414e-03
+Status:   PASS (residual < 1e-2f)
+
+ Performance counter stats for './neon_test':
+
+     1,124,303,846      instructions:u            #    1.36  insn per cycle         
+       826,664,847      cycles:u                                                    
+       665,268,473      cache-references:u                                          
+         5,928,863      cache-misses:u            #    0.891 % of all cache refs    
+       665,268,473      L1-dcache-loads:u                                           
+         5,928,863      L1-dcache-load-misses:u   #    0.89% of all L1-dcache accesses
+        24,666,020      LLC-loads:u                                                 
+           122,152      LLC-load-misses:u         #    0.50% of all LL-cache accesses
+           565,848      branch-misses:u                                             
+
+       0.325375307 seconds time elapsed
+
+       0.316692000 seconds user
+       0.008010000 seconds sys
+
+
