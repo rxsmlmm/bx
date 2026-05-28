@@ -1,0 +1,19 @@
+done
+
+ Performance counter stats for './perf_runner omp 1000 4':
+
+     1,587,361,386      cycles:u                                                    
+     4,511,265,980      instructions:u            #    2.84  insn per cycle         
+                                                  #    0.06  stalled cycles per insn
+     1,376,758,759      cache-references:u                                          
+         9,473,746      cache-misses:u            #    0.688 % of all cache refs    
+           883,819      branch-misses:u                                             
+       256,767,953      stalled-cycles-backend:u  #   16.18% backend cycles idle    
+         9,538,282      stalled-cycles-frontend:u #    0.60% frontend cycles idle   
+
+       0.258713652 seconds time elapsed
+
+       0.628241000 seconds user
+       0.210555000 seconds sys
+
+

@@ -1,0 +1,19 @@
+done
+
+ Performance counter stats for './perf_runner serial 1000':
+
+     1,101,517,058      cycles:u                                                    
+     2,444,501,602      instructions:u            #    2.22  insn per cycle         
+                                                  #    0.12  stalled cycles per insn
+     1,031,199,948      cache-references:u                                          
+         9,327,587      cache-misses:u            #    0.905 % of all cache refs    
+           687,571      branch-misses:u                                             
+       295,268,524      stalled-cycles-backend:u  #   26.81% backend cycles idle    
+         3,824,596      stalled-cycles-frontend:u #    0.35% frontend cycles idle   
+
+       0.435858528 seconds time elapsed
+
+       0.423851000 seconds user
+       0.007922000 seconds sys
+
+

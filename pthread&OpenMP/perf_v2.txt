@@ -1,0 +1,19 @@
+done
+
+ Performance counter stats for './perf_runner pthread_dyn 1000 4':
+
+     3,593,207,121      cycles:u                                                    
+     2,453,323,947      instructions:u            #    0.68  insn per cycle         
+                                                  #    1.12  stalled cycles per insn
+     1,034,840,693      cache-references:u                                          
+         8,056,723      cache-misses:u            #    0.779 % of all cache refs    
+           976,342      branch-misses:u                                             
+     2,759,453,197      stalled-cycles-backend:u  #   76.80% backend cycles idle    
+        33,019,057      stalled-cycles-frontend:u #    0.92% frontend cycles idle   
+
+       0.965412664 seconds time elapsed
+
+       1.387115000 seconds user
+       1.363589000 seconds sys
+
+
