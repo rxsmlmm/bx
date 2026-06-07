@@ -1,0 +1,9 @@
+Platform,Version,Size,MPI_Procs,OMP_Threads,Time_ms,Residual,Correct
+ARM,MPI_1D_Row,1024,32,1,397.23,0.00,1
+ARM,MPI_1D_Col,1024,32,1,14027.75,0.00,1
+ARM,MPI_Pipeline,1024,32,1,93.09,0.00,1
+ARM,MPI_SIMD,1024,32,1,372.96,0.00,1
+ARM,MPI_OMP,1024,32,1,383.55,0.00,1
+ARM,MPI_OMP_SIMD,1024,32,1,383.96,0.00,1
+
+Authorized users only. All activities may be monitored and reported.
