@@ -1,0 +1,25 @@
+CXX = g++
+HIPCC = hipcc
+CXXFLAGS = -O2 -std=c++11
+HIPCCFLAGS = -O2 -std=c++11
+
+TARGET = test_gaussian
+
+OBJS = main.o
+
+all: $(TARGET)
+
+$(TARGET): gpu_basic.o $(OBJS)
+	$(HIPCC) -o $@ gpu_basic.o $(OBJS)
+
+gpu_basic.o: gpu_basic.cu common.h
+	$(HIPCC) $(HIPCCFLAGS) -c gpu_basic.cu
+
+main.o: main.cc common.h serial.h
+	$(CXX) $(CXXFLAGS) -c main.cc
+
+clean:
+	rm -f *.o $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
